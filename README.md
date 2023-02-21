@@ -32,7 +32,7 @@ that the more they produce the intended result and that it works reliably, it us
 ## Summary
 - Model deployment is one of the most important stages in the machine learning lifecycle.
 
-- And this is because to start using the machine learning model, it needs to be effectively deployed nto production so that it can provide its predictions to other software systems.
+- And this is because to start using the machine learning model, it needs to be effectively deployed into production so that it can provide its predictions to other software systems.
 
 - In other words, to maximize the value of the machine learning model we create, we need to be able to reliably extract the predictions from the model and share them with other systems.
 
@@ -61,7 +61,7 @@ So in this section, I want to introduce what a machine learning pipeline is and 
    - And again, we should be able to extract data or features from these images.
    - Some of our data may be transactional and we may want to aggregate this data to have a more streamlined view of the customer.
    - Sometimes the data is geolocation and we may want to extract features from this data.
-   - Sometimes we have a time series that we need to process or aggregate in a certain way, and we can also have date and time variables that we cannot use straight away in our models, but instead we derive eatures from them.
+   - Sometimes we have a time series that we need to process or aggregate in a certain way, and we can also have date and time variables that we cannot use straight away in our models, but instead we derive features from them.
 
 So before we can use these data to train them, although we need to carry out a lot of variable transformation, extract features from data, or create new features by combining existing ones. So then we're not talking of just training the models, but we are also talking about preprocessing
 the data to make it suitable to train them over. And sometimes we may not want to use all the features available to us. So we may include a type of feature selection.
@@ -96,7 +96,7 @@ This is an isolated environment without contact to light data when the data scie
 
 It is the series of steps that need to occur from the moment we received the data up to the moment we obtain a prediction.
 
-- A typical machine learning pipeline includes a big proportion of feature transformation steps.</br>
+- A typical machine learning pipeline includes a big proportion of feature transformation steps.
 Perhaps this is even the biggest part of the pipeline.
 
 - Then it includes steps to train the machine learning mother and steps to output a prediction would create an entire pipeline in a research environment.

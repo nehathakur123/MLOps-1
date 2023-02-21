@@ -6,6 +6,7 @@ Home-page: https://github.com/MLOps/monitoring-and-testing-ml-deployments
 Author: DivyaGandhi
 Author-email: c3divya@gmail.com
 License: BSD-3
+Platform: UNKNOWN
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Programming Language :: Python
 Classifier: Programming Language :: Python :: 3
@@ -19,3 +20,4 @@ Requires-Python: >=3.6.0
 Description-Content-Type: text/markdown
 
 Example regression model package from Train In Data.
+
